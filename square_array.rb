@@ -1,9 +1,9 @@
 def square_array(array)
-  puts array.each
+square_number=[] #place holder
+  array.each do |num|
+    square_number.push(num**2)
 end
-  numbers = [1,2,3]
+return square_number #tells the code to store it and keep it
+end
 
-  new_numbers =[40.60,80]
-
-  puts square_array(new)
-  puts square_array(new_numbers)
+puts square_array(square_number)
