@@ -6,4 +6,4 @@ end
 return square_number #tells the code to store it and keep it
 end
 
-puts square_array(square_number)
+puts square_array(array)
